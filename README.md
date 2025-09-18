@@ -1,6 +1,6 @@
-# QR Engine Landing Page
+# PeekPack Landing Page
 
-A beautiful, responsive landing page for QR Engine - the privacy-first QR scanner and generator for iOS.
+A beautiful, responsive landing page for PeekPack - the addictive physics-based casual game for iOS.
 
 ## ✨ Features
 
@@ -8,8 +8,8 @@ A beautiful, responsive landing page for QR Engine - the privacy-first QR scanne
 - **🌙 Dark/Light Mode**: Automatic theme switching with system preference detection
 - **📱 Fully Responsive**: Optimized for all screen sizes from mobile to desktop
 - **⚡ Smooth Animations**: Powered by Framer Motion for fluid user experience
-- **🔒 Privacy-Focused**: Highlights the app's privacy-first approach
-- **📸 App Story Flow**: Showcases the 4 main app screens as a visual story
+- **🎮 Game-Focused**: Showcases the addictive physics-based gameplay
+- **📸 Game Story Flow**: Showcases the 4 main game features as a visual story
 
 ## 🛠️ Tech Stack
 
@@ -44,7 +44,7 @@ src/
 ├── app/
 │   ├── layout.tsx          # Root layout with theme provider
 │   ├── page.tsx            # Main landing page
-│   ├── privacy/
+│   ├── privacy-policy/
 │   │   └── page.tsx        # Privacy policy page
 │   └── globals.css         # Global styles and CSS variables
 ├── components/
@@ -64,18 +64,18 @@ src/
 - **Components**: ShadcnUI components with custom styling
 - **Animations**: Framer Motion with performance optimizations
 
-## 📱 App Store Images
+## 📱 Game Feature Images
 
-The landing page showcases 4 main app screens:
+The landing page showcases 4 main game features:
 
-1. **QR Scanner** (`/images/1.png`) - Instant QR detection interface
-2. **QR Generator** (`/images/2.png`) - Professional QR creation
-3. **Preview & Actions** (`/images/3.png`) - Save, share, and use anywhere
-4. **Smart Recognition** (`/images/4.png`) - Context-aware actions
+1. **Drop & Merge** (`/images/1.png`) - Physics-based ball dropping mechanics
+2. **Score System** (`/images/2.png`) - Points and progression tracking
+3. **Theme Selection** (`/images/3.png`) - Multiple visual themes and styles
+4. **Physics Effects** (`/images/4.png`) - Realistic physics and particle effects
 
 ## 🔒 Privacy Policy
 
-The site includes a comprehensive privacy policy at `/privacy` that explains:
+The site includes a comprehensive privacy policy at `/privacy-policy` that explains:
 
 - No data collection or tracking
 - 100% local processing
@@ -99,12 +99,12 @@ npm run build
 
 ## 👨‍💻 Developer
 
-**Ibrahim Uzun** - Individual iOS Developer
+**Ibrahim Uzun** - Individual iOS Game Developer
 
 - Based in Istanbul, Turkey
-- Focus on privacy-first applications
+- Focus on addictive mobile games
 - Available for contact through App Store or social media
 
 ---
 
-Built with ❤️ for QR Engine users who value privacy and beautiful design.
+Built with ❤️ for PeekPack players who love physics-based puzzles.

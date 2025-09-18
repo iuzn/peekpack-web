@@ -72,7 +72,7 @@ export default function Home() {
               className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent mb-6"
               variants={fadeInUp}
             >
-              Physics-Based Puzzle Game
+              Physics-Based Casual Game
             </motion.h1>
             <motion.p
               className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto"
