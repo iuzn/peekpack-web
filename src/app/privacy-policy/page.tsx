@@ -33,12 +33,12 @@ export default function PrivacyPolicy() {
             <div className="flex items-center space-x-3">
               <Image
                 src="/images/logo.png"
-                alt="QR Engine Logo"
+                alt="PeekPack Logo"
                 width={32}
                 height={32}
                 className="rounded-lg"
               />
-              <span className="font-semibold text-xl">QR Engine</span>
+              <span className="font-semibold text-xl">PeekPack</span>
             </div>
           </motion.div>
           <ThemeToggle />
@@ -66,7 +66,7 @@ export default function PrivacyPolicy() {
               Privacy Policy
             </h1>
             <p className="text-xl text-muted-foreground">
-              Your privacy is fundamental to how QR Engine operates
+              Your privacy is fundamental to how PeekPack operates
             </p>
           </motion.div>
 
@@ -80,9 +80,9 @@ export default function PrivacyPolicy() {
                 🔒 Privacy-First Promise
               </h2>
               <p className="text-lg leading-relaxed">
-                QR Engine is designed with privacy as its foundation. Unlike
-                other QR apps, we believe your data should stay on your device,
-                always.
+                PeekPack is designed with privacy as its foundation. Unlike
+                other mobile games, we believe your data should stay on your
+                device, always.
               </p>
             </div>
 
@@ -102,10 +102,10 @@ export default function PrivacyPolicy() {
                 </div>
                 <div className="bg-card border border-border rounded-lg p-6">
                   <h3 className="text-xl font-semibold mb-3 text-red-600 dark:text-red-400">
-                    ❌ No QR Content
+                    ❌ No Game Data
                   </h3>
                   <p className="text-muted-foreground">
-                    QR codes you scan or generate never leave your device.
+                    Your high scores and game progress never leave your device.
                   </p>
                 </div>
                 <div className="bg-card border border-border rounded-lg p-6">
@@ -129,17 +129,17 @@ export default function PrivacyPolicy() {
             </motion.section>
 
             <motion.section className="mb-12" variants={fadeInUp}>
-              <h2 className="text-3xl font-bold mb-6">How QR Engine Works</h2>
+              <h2 className="text-3xl font-bold mb-6">How PeekPack Works</h2>
               <div className="space-y-6">
                 <div className="bg-card border border-border rounded-lg p-6">
                   <h3 className="text-xl font-semibold mb-3 text-blue-600 dark:text-blue-400">
                     📱 100% Local Processing
                   </h3>
                   <p className="leading-relaxed">
-                    All QR code scanning and generation happens directly on your
-                    iPhone using Apple&apos;s native frameworks (AVFoundation
-                    for scanning, CoreImage for generation). No internet
-                    connection is required or used for these core functions.
+                    All game physics, scoring, and visual effects happen
+                    directly on your iPhone using Apple&apos;s native frameworks
+                    (SpriteKit for physics simulation, UIKit for UI). No
+                    internet connection is required or used for core gameplay.
                   </p>
                 </div>
                 <div className="bg-card border border-border rounded-lg p-6">
@@ -147,8 +147,8 @@ export default function PrivacyPolicy() {
                     🔒 No Cloud Storage
                   </h3>
                   <p className="leading-relaxed">
-                    Your QR codes, scan history, and generated content are
-                    stored only in your device&apos;s local storage. Nothing is
+                    Your high scores, game settings, and progress are stored
+                    only in your device&apos;s local storage. Nothing is
                     uploaded to any servers or cloud services.
                   </p>
                 </div>
@@ -172,30 +172,20 @@ export default function PrivacyPolicy() {
               <div className="space-y-4">
                 <div className="bg-card border border-border rounded-lg p-6">
                   <h3 className="text-lg font-semibold mb-2">
-                    📷 Camera Access
+                    📱 Device Storage Access
                   </h3>
                   <p className="text-muted-foreground">
-                    Required for QR code scanning. Camera input is processed
-                    locally in real-time and never stored or transmitted.
+                    Required for saving high scores and game settings locally.
+                    All game data is processed locally and never transmitted.
                   </p>
                 </div>
                 <div className="bg-card border border-border rounded-lg p-6">
                   <h3 className="text-lg font-semibold mb-2">
-                    📱 Photos Access (Optional)
+                    📱 Vibration (Haptic Feedback)
                   </h3>
                   <p className="text-muted-foreground">
-                    Only requested when you choose to save generated QR codes to
-                    your Photos library. We don&apos;t access existing photos.
-                  </p>
-                </div>
-                <div className="bg-card border border-border rounded-lg p-6">
-                  <h3 className="text-lg font-semibold mb-2">
-                    👤 Contacts Access (Optional)
-                  </h3>
-                  <p className="text-muted-foreground">
-                    Only requested when you choose to create QR codes from
-                    contact information or save scanned contact cards to your
-                    address book.
+                    Used for tactile feedback during gameplay (ball merges,
+                    scoring events). This enhances the gaming experience.
                   </p>
                 </div>
               </div>
@@ -205,20 +195,20 @@ export default function PrivacyPolicy() {
               <h2 className="text-3xl font-bold mb-6">About the Developer</h2>
               <div className="bg-card border border-border rounded-lg p-6">
                 <p className="leading-relaxed mb-4">
-                  QR Engine is developed by <strong>Ibrahim Uzun</strong>, an
+                  PeekPack is developed by <strong>Ibrahim Uzun</strong>, an
                   individual iOS developer based in Istanbul, Turkey. This is
                   not a corporate product with complex privacy policies and data
                   collection schemes.
                 </p>
                 <p className="leading-relaxed mb-4">
                   As an individual developer, I believe in creating software
-                  that respects user privacy and works exactly as advertised. QR
-                  Engine reflects my personal commitment to privacy-first
+                  that respects user privacy and works exactly as advertised.
+                  PeekPack reflects my personal commitment to privacy-first
                   software development.
                 </p>
                 <p className="leading-relaxed">
-                  If you have any questions about this privacy policy or how QR
-                  Engine works, you can contact me directly through the App
+                  If you have any questions about this privacy policy or how
+                  PeekPack works, you can contact me directly through the App
                   Store or via social media.
                 </p>
               </div>
@@ -235,19 +225,20 @@ export default function PrivacyPolicy() {
                   </h3>
                   <ul className="space-y-2 text-muted-foreground">
                     <li>
-                      • <strong>AVFoundation:</strong> For camera-based QR code
-                      scanning
+                      • <strong>SpriteKit:</strong> For physics simulation and
+                      game rendering
                     </li>
                     <li>
-                      • <strong>CoreImage:</strong> For high-quality QR code
-                      generation
+                      • <strong>UIKit:</strong> For user interface and touch
+                      controls
                     </li>
                     <li>
-                      • <strong>SwiftUI:</strong> For the user interface
+                      • <strong>CoreAnimation:</strong> For smooth visual
+                      effects and animations
                     </li>
                     <li>
-                      • <strong>Contacts Framework:</strong> For contact card
-                      integration (when permitted)
+                      • <strong>UserDefaults:</strong> For local high score
+                      storage
                     </li>
                   </ul>
                 </div>
@@ -256,8 +247,8 @@ export default function PrivacyPolicy() {
                     🌐 No Network Requirements
                   </h3>
                   <p className="text-muted-foreground">
-                    QR Engine can function completely offline. The app
-                    doesn&apos;t make any network requests for its core
+                    PeekPack can function completely offline. The game
+                    doesn&apos;t make any network requests for its core gameplay
                     functionality.
                   </p>
                 </div>
@@ -270,15 +261,15 @@ export default function PrivacyPolicy() {
               </h2>
               <div className="bg-card border border-border rounded-lg p-6">
                 <p className="leading-relaxed mb-4">
-                  Given that QR Engine doesn&apos;t collect any data,
+                  Given that PeekPack doesn&apos;t collect any data,
                   there&apos;s very little that could change about this privacy
-                  policy. However, if significant changes are made to the app
+                  policy. However, if significant changes are made to the game
                   that would affect your privacy, this policy will be updated
                   accordingly.
                 </p>
                 <p className="leading-relaxed">
                   Any updates will be reflected on this page and in the
-                  app&apos;s App Store listing. The app will never start
+                  game&apos;s App Store listing. The game will never start
                   collecting data without explicit user consent and clear
                   notification.
                 </p>
@@ -289,9 +280,9 @@ export default function PrivacyPolicy() {
               <h2 className="text-3xl font-bold mb-6">Questions?</h2>
               <div className="bg-card border border-border rounded-lg p-6">
                 <p className="leading-relaxed mb-4">
-                  If you have any questions about this privacy policy or QR
-                  Engine&apos;s privacy practices, please don&apos;t hesitate to
-                  reach out.
+                  If you have any questions about this privacy policy or
+                  PeekPack&apos;s privacy practices, please don&apos;t hesitate
+                  to reach out.
                 </p>
                 <p className="text-muted-foreground">
                   <strong>Developer:</strong> Ibrahim Uzun

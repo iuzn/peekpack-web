@@ -35,12 +35,12 @@ export default function Home() {
           >
             <Image
               src="/images/logo.png"
-              alt="QR Engine Logo"
+              alt="PeekPack Logo"
               width={32}
               height={32}
               className="rounded-lg"
             />
-            <span className="font-semibold text-xl">QR Engine</span>
+            <span className="font-semibold text-xl">PeekPack</span>
           </motion.div>
           <ThemeToggle />
         </div>
@@ -61,7 +61,7 @@ export default function Home() {
             >
               <Image
                 src="/images/logo.png"
-                alt="QR Engine Logo"
+                alt="PeekPack Logo"
                 width={120}
                 height={120}
                 className="rounded-3xl"
@@ -72,21 +72,21 @@ export default function Home() {
               className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent mb-6"
               variants={fadeInUp}
             >
-              Instant QR Detection
+              Physics-Based Puzzle Game
             </motion.h1>
             <motion.p
               className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto"
               variants={fadeInUp}
             >
-              Point & Scan in Real-Time
+              Drop, Merge & Score Big
             </motion.p>
             <motion.p
               className="text-lg text-muted-foreground/80 mb-12 max-w-3xl mx-auto"
               variants={fadeInUp}
             >
-              Transform your iPhone into a powerful QR code tool. Privacy-first,
-              lightning-fast, and beautifully designed for the modern iOS
-              experience.
+              Experience the addictive physics of falling balls that merge into
+              larger sizes. Simple mechanics, endless fun, beautifully crafted
+              for iOS.
             </motion.p>
           </motion.div>
         </section>
@@ -109,22 +109,22 @@ export default function Home() {
                 <div className="flex items-center gap-3">
                   <Zap className="w-8 h-8 text-blue-500" />
                   <h2 className="text-3xl md:text-4xl font-bold">
-                    Instant QR Detection
+                    Drop & Merge Balls
                   </h2>
                 </div>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Lightning-fast recognition with advanced camera technology.
-                  Smart detection for URLs, text, and contact information with
-                  built-in flashlight support.
+                  Tap anywhere on the screen to drop colorful balls. When two
+                  balls of the same size collide, they merge into a larger ball.
+                  Master the physics and strategic placement.
                 </p>
                 <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
                   <span className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    Real-time processing
+                    Physics-based gameplay
                   </span>
                   <span className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    Elegant glass design
+                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>8
+                    different ball sizes
                   </span>
                 </div>
               </div>
@@ -149,22 +149,22 @@ export default function Home() {
                 <div className="flex items-center gap-3">
                   <Smartphone className="w-8 h-8 text-purple-500" />
                   <h2 className="text-3xl md:text-4xl font-bold">
-                    Create QR Codes Instantly
+                    Score & Progress System
                   </h2>
                 </div>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Professional quality generation with website URLs, text
-                  content, and contact cards. Live preview as you type for
-                  instant feedback.
+                  Earn points by merging balls and reach higher scores. Compete
+                  with yourself and try to beat your high score. Each merge
+                  creates spectacular visual effects and satisfying feedback.
                 </p>
                 <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
                   <span className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                    Multiple content types
+                    Strategic scoring
                   </span>
                   <span className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                    Live preview updates
+                    High score tracking
                   </span>
                 </div>
               </div>
@@ -188,21 +188,22 @@ export default function Home() {
                 <div className="flex items-center gap-3">
                   <Eye className="w-8 h-8 text-green-500" />
                   <h2 className="text-3xl md:text-4xl font-bold">
-                    Save, Share & Use Anywhere
+                    Multiple Themes & Visuals
                   </h2>
                 </div>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  High-quality vector output powered by CoreImage. Save to
-                  Photos, share instantly via any app, or copy for quick access.
+                  Choose from beautiful themes including classic colorful balls
+                  or stunning bird imagery. Each theme brings a unique visual
+                  experience while maintaining the same addictive gameplay.
                 </p>
                 <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
                   <span className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    Crystal clear graphics
+                    Colors & Birds themes
                   </span>
                   <span className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    Universal sharing
+                    Stunning visuals
                   </span>
                 </div>
               </div>
@@ -226,22 +227,23 @@ export default function Home() {
                 <div className="flex items-center gap-3">
                   <Shield className="w-8 h-8 text-orange-500" />
                   <h2 className="text-3xl md:text-4xl font-bold">
-                    Smart Content Recognition
+                    Physics & Visual Effects
                   </h2>
                 </div>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  One-tap actions ready for every content type. Direct link
-                  opening, content copying, and contact import straight to your
-                  address book.
+                  Realistic physics simulation with gravity, collision
+                  detection, and bounce effects. Spectacular particle effects
+                  when balls merge, haptic feedback, and smooth 60fps gameplay
+                  experience.
                 </p>
                 <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
                   <span className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
-                    Context-aware actions
+                    Realistic physics
                   </span>
                   <span className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
-                    Instant responses
+                    Particle effects
                   </span>
                 </div>
               </div>
@@ -271,39 +273,39 @@ export default function Home() {
               <Shield className="w-16 h-16 text-blue-500" />
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Your Privacy is Our Priority
+              Simple & Addictive Gameplay
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              100% offline functionality. No data collection, no tracking, no
-              cloud storage. Everything happens on your device and stays on your
-              device.
+              Clean, minimalist design focused on the core gameplay experience.
+              No distractions, just pure gaming pleasure with intuitive touch
+              controls and satisfying feedback.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div className="space-y-3">
                 <div className="w-12 h-12 bg-green-500/10 rounded-full flex items-center justify-center mx-auto">
                   <Shield className="w-6 h-6 text-green-500" />
                 </div>
-                <h3 className="font-semibold">Local Processing</h3>
+                <h3 className="font-semibold">Easy to Learn</h3>
                 <p className="text-sm text-muted-foreground">
-                  All scanning happens on your device
+                  Simple tap-to-drop mechanics
                 </p>
               </div>
               <div className="space-y-3">
                 <div className="w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center mx-auto">
                   <Shield className="w-6 h-6 text-blue-500" />
                 </div>
-                <h3 className="font-semibold">Zero Tracking</h3>
+                <h3 className="font-semibold">Hard to Master</h3>
                 <p className="text-sm text-muted-foreground">
-                  No analytics or data collection
+                  Strategic depth in ball placement
                 </p>
               </div>
               <div className="space-y-3">
                 <div className="w-12 h-12 bg-purple-500/10 rounded-full flex items-center justify-center mx-auto">
                   <Shield className="w-6 h-6 text-purple-500" />
                 </div>
-                <h3 className="font-semibold">Offline First</h3>
+                <h3 className="font-semibold">Endless Fun</h3>
                 <p className="text-sm text-muted-foreground">
-                  Works without internet connection
+                  Infinite gameplay possibilities
                 </p>
               </div>
             </div>
@@ -320,11 +322,11 @@ export default function Home() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Ready to try QR Engine?
+              Ready to play PeekPack?
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Join thousands of users who&apos;ve made the switch to
-              privacy-first QR scanning.
+              Join thousands of players who&apos;ve discovered the addictive
+              physics of ball merging. Download now and start your journey!
             </p>
             <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
               <Button size="lg" className="text-lg px-8 py-4 h-auto">
@@ -344,15 +346,15 @@ export default function Home() {
               <div className="flex items-center space-x-3">
                 <Image
                   src="/images/logo.png"
-                  alt="QR Engine Logo"
+                  alt="PeekPack Logo"
                   width={24}
                   height={24}
                   className="rounded"
                 />
-                <span className="font-semibold">QR Engine</span>
+                <span className="font-semibold">PeekPack</span>
               </div>
               <p className="text-sm text-muted-foreground">
-                Professional QR solutions for iOS
+                Physics-based puzzle game for iOS
               </p>
               <p className="text-sm text-muted-foreground">
                 Built with ❤️ by Ibrahim Uzun
@@ -363,7 +365,7 @@ export default function Home() {
               <h3 className="font-semibold">Legal</h3>
               <div className="space-y-2 text-sm flex flex-col">
                 <Link
-                  href="/privacy"
+                  href="/privacy-policy"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Privacy Policy
@@ -397,7 +399,7 @@ export default function Home() {
 
           <div className="border-t border-border/40 mt-8 pt-8 text-center">
             <p className="text-sm text-muted-foreground">
-              © 2025 QR Engine. All rights reserved.
+              © 2025 PeekPack. All rights reserved.
             </p>
           </div>
         </div>
